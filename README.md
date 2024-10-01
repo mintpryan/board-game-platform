@@ -47,8 +47,9 @@ Developed during the Codedex 2024 hackathon.
    cd frontend
    npm install
    ```
-5. Apply migrations:
+5. Create and apply migrations:
    ```bash
+   python manage.py makemigrations core_user
    python manage.py migrate
    ```
 6. Start the backend server:
@@ -58,6 +59,7 @@ Developed during the Codedex 2024 hackathon.
 7. Start the frontend development server:
    ```bash
    cd frontend
+   npm build
    npm start
    ```
 Now, you can access the website at http://localhost:3000 (frontend) and http://localhost:8000 (backend API).
