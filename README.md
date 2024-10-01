@@ -61,5 +61,5 @@ Developed during the Codedex 2024 hackathon.
    npm start
    ```
 Now, you can access the website at http://localhost:3000 (frontend) and http://localhost:8000 (backend API).
-
+Admin panel -  http://localhost:8000/admin (superuser - admin/adminpassword)
    
