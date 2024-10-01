@@ -47,18 +47,15 @@ Developed during the Codedex 2024 hackathon.
    cd frontend
    npm install
    ```
-5. Set up the PostgreSQL database:
-    Create a PostgreSQL database.
-    Configure the DATABASE settings in backend/settings.py with your database details.
-6. Apply migrations:
+5. Apply migrations:
    ```bash
    python manage.py migrate
    ```
-7. Start the backend server:
+6. Start the backend server:
    ```bash
    python manage.py runserver
    ```
-8. Start the frontend development server:
+7. Start the frontend development server:
    ```bash
    cd frontend
    npm start
