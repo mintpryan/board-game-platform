@@ -15,9 +15,6 @@ Developed during the Codedex 2024 hackathon.
 
 - **Frontend**: React, Ant Design, Styled-components, Three.js
 - **Backend**: Django, Django REST Framework
-- **Database**: PostgreSQL
-- **Hosting**: (Insert your hosting details here, if applicable)
-- **Version Control**: Git & GitHub
 
 ## Setup and Installation
 
